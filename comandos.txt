@@ -1,0 +1,9 @@
+# Itens 3, 4 e 5 — comandos usados (Linux)
+# 3) Tornar o arquivo executável
+chmod u+x calculadora.sh
+
+# 4) Permissões: dono (rwx) e demais apenas leitura (r--)
+chmod 744 calculadora.sh
+
+# 5) Executar o script
+./calculadora.sh
